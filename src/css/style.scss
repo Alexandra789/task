@@ -78,7 +78,9 @@
         }
 
         .form {
-          display: grid;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
           width: 358px;
           height: 275px;
           background-color: #9da3d7;

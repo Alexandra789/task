@@ -67,7 +67,9 @@
   letter-spacing: 0.6px;
 }
 * .main .background-img .form-wrapper .form {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   width: 358px;
   height: 275px;
   background-color: #9da3d7;
@@ -107,7 +109,7 @@
   letter-spacing: 0.6px;
 }
 * .main .background-img .form-wrapper .form .form__button:hover {
-  box-shadow: 4px 10px 7px 0px #7d7d7d;
+  box-shadow: 4px 10px 7px 0px rgb(125, 125, 125);
   cursor: pointer;
 }
 * .main .background-img .form-wrapper .form .form__button:active {
@@ -405,7 +407,7 @@
   text-transform: uppercase;
 }
 * .main .calculate-wrapper .calculate__info .info__button:hover {
-  box-shadow: 4px 10px 7px 0px #7d7d7d;
+  box-shadow: 4px 10px 7px 0px rgb(125, 125, 125);
   cursor: pointer;
 }
 * .main .calculate-wrapper .calculate__info .info__button:active {
